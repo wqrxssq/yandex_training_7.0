@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/A",
-      "program": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/A/build/Debug/outDebug"
+      "cwd": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/B",
+      "program": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/B/build/Debug/outDebug"
     }
   ]
 }
