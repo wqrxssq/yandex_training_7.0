@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/A",
+      "program": "/Users/wqr.xssq/Work/yandex_training_7.0/tasks/contest_1/A/build/Debug/outDebug"
+    }
+  ]
+}
