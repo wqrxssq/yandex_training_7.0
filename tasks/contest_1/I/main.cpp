@@ -84,7 +84,7 @@ void solve() {
         fill(dp, dp + capacity, -INF);
         dp[0] = 0;
 
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j < sz(v); j++) {
             for (int W = min(capacity - 1, MAXW * (j + 1)); W >= v[j].ff; W--) {
                 dp[W] = max(dp[W], dp[W - v[j].ff] + v[j].ss);
             }
