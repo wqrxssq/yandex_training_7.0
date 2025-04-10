@@ -74,7 +74,6 @@ void solve() {
             even_lenght.pb({cnt_even - cnt_odd, cnt_even, cnt_odd});
         }
     }
-    odd_lenght.pb({0, 0, 0});
 
     sort(all(even_lenght), cmp);
     sort(all(odd_lenght), cmp);
@@ -84,6 +83,15 @@ void solve() {
     while (!even_lenght.empty() && even_lenght.back().diff >= 0) {
         res += even_lenght.back().res_if_even;
         even_lenght.pop_back();
+    }
+
+    if (odd_lenght.empty()) {
+        while (!even_lenght.empty()) {
+            res += even_lenght.back().res_if_even;
+            even_lenght.pop_back();
+        }
+        cout << res << '\n';
+        return;
     }
 
     res += odd_lenght.back().res_if_even;

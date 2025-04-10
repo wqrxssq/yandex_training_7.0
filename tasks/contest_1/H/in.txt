@@ -1,5 +1,3 @@
-4
-DSD
-SS
-DD
-SDD
+2
+DS
+S
