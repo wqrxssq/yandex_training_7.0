@@ -67,7 +67,7 @@ void build(int tl, int tr, int v) {
 
 pii query(int tl, int tr, int v, int l, int r) {
     if (l > r) {
-        return {-MOD, 0};
+        return {0, 0};
     }
     if (tl == l && tr == r) {
         return t[v];
